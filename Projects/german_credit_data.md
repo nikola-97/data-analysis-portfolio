@@ -1,24 +1,4 @@
-# About
-
-...
-
-## Table of Contents
-
-1. [Project Overview](#1-project-overview)
-2. [Objectives](#2-objectives)
-3. [Project Scope & Tools](#3-project-scope--tools)
-4. [Data Workflow](#4-data-workflow)
-5. [Data Model & Schema](#5-data-model--schema)
-6. [Analysis & Metrics](#6-analysis--metrics)
-7. [Key Insights](#7-key-insights)
-8. [Recommendations](#8-recommendations)
-9. [Assumptions & Limitations](#9-assumptions--limitations)
-10. [Future Enhancements](#10-future-enhancements)
-11. [Deliverables](#11-deliverables)
-12. [Author](#12-author)
----
-
-## 1. Project Overview
+## Project Overview
 
 **Context:** [The business, research, or personal situation that motivated this project.]
 
@@ -28,9 +8,22 @@
 
 **Outcome:** [What did you produce or discover?]
 
+## Table of Contents
+
+1. [Objectives](#1-objectives)
+2. [Project Scope & Tools](#2-project-scope--tools)
+3. [Data Workflow](#3-data-workflow)
+4. [Data Model & Schema](#4-data-model--schema)
+5. [Analysis & Metrics](#5-analysis--metrics)
+6. [Key Insights](#6-key-insights)
+7. [Recommendations](#7-recommendations)
+8. [Assumptions & Limitations](#8-assumptions--limitations)
+9. [Future Enhancements](#9-future-enhancements)
+10. [Deliverables](#10-deliverables)
+11. [Author](#11-author)
 ---
 
-## 2. Objectives
+## 1. Objectives
 
 - **Primary Objective:** [The main thing you set out to do]
 - **Secondary Objective 1:** [Supporting goal]
@@ -38,7 +31,7 @@
 - **Secondary Objective 3:** [Remove if not applicable]
 ---
 
-## 3. Project Scope & Tools
+## 2. Project Scope & Tools
 
 ### Scope
 
@@ -63,7 +56,7 @@
 
 ---
 
-## 4. Data Workflow
+## 3. Data Workflow
 
 1. **Source:** [Where did the data come from? Format, size, access method.]
 2. **Ingestion:** [How was it brought in?]
@@ -74,7 +67,7 @@
 
 ---
 
-## 5. Data Model & Schema
+## 4. Data Model & Schema
 
 ### Dataset / Table: `[name]`
 
@@ -90,7 +83,7 @@
 
 ---
 
-## 6. Analysis & Metrics
+## 5. Analysis & Metrics
 
 ### Analytical Approach
 
@@ -115,7 +108,7 @@
 
 ---
 
-## 7. Key Insights
+## 6. Key Insights
 
 **Insight 1: [Short descriptive headline]**
 [What you found + what it suggests. One short paragraph.]
@@ -131,7 +124,7 @@
 
 ---
 
-## 8. Recommendations
+## 7. Recommendations
 
 | Priority | Recommendation | Based On | Suggested Owner |
 |----------|---------------|----------|-----------------|
@@ -141,7 +134,7 @@
 
 ---
 
-## 9. Assumptions & Limitations
+## 8. Assumptions & Limitations
 
 ### Assumptions
 - [What did you treat as true without being able to verify?]
@@ -158,7 +151,7 @@
 
 ---
 
-## 10. Future Enhancements
+## 9. Future Enhancements
 
 - [ ] [Enhancement 1 - specific and traceable to a real gap in this project]
 - [ ] [Enhancement 2]
@@ -167,7 +160,7 @@
 
 ---
 
-## 11. Deliverables
+## 10. Deliverables
 
 | Deliverable | Description | Location |
 |-------------|-------------|----------|
@@ -177,7 +170,7 @@
 
 ---
 
-## 12. Author
+## 11. Author
 
 **[Your Name]**
 [Your role or title - current or target]
