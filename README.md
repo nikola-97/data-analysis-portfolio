@@ -21,4 +21,4 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 
 **Results:**
 
-**More about the Project:** (German Credit Data)[German Credit Data]
+**More about the Project:** (german_credit_data.md)[German Credit Data]
