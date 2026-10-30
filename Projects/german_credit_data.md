@@ -2,7 +2,7 @@
 
 **Context:** [The business, research, or personal situation that motivated this project.]
 
-**Problem Statement:** [The specific question or challenge you were addressing.]
+**Problem Statement:** Which demographic and financial characteristics influence credit risk severity?
 
 **Approach:** [In 1–2 sentences - how did you tackle it?]
 
@@ -26,10 +26,10 @@
 
 ## 1. Objectives
 
-- **Primary Objective:** [The main thing you set out to do]
-- **Secondary Objective 1:** [Supporting goal]
-- **Secondary Objective 2:** [Supporting goal]
-- **Secondary Objective 3:** [Remove if not applicable]
+- **Primary Objective:** Analyse to what extent demographic and financial factors predict whether a credit has low or high risk.
+- **Secondary Objective 1:** Measure and compare the prediction quality based on a confusion matrix.
+- **Secondary Objective 2:** Test significance with interaction terms of the significant variables from both regressions.
+- **Secondary Objective 3:** Test Hypothesies.
 ---
 
 ## 2. Project Scope & Tools
@@ -39,32 +39,31 @@
 | Dimension | Details |
 |-----------|---------|
 | **In Scope** | [What is included - data sources, time periods, segments] |
-| **Out of Scope** | [What you explicitly excluded - and a brief reason why] |
-| **Time Period** | [Date range of the data or the project itself] |
-| **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |
+| **Out of Scope** | Some variables like whether the customer has a telephone number, whether she is foreigner. Because most of the variables are categorical, I wanted to include only those that are much more likely to show significant results, with focus on the topic. Additionally, I had to be careful with the number of independent variables, because of multicollinearity. |
+| **Time Period** | 26.10 - 30.10.2026 |
+| **Granularity** | 1000 rows, where one row represents one customer |
 
 ### Tools & Technologies
 
 | Category | Tool(s) Used |
 |----------|-------------|
-| Data Storage | [e.g., PostgreSQL, CSV files, BigQuery, S3] |
-| Data Processing | [e.g., Python, R, SQL, Excel, dbt] |
-| Analysis | [e.g., pandas, dplyr, custom SQL queries] |
-| Visualization | [e.g., Matplotlib, Tableau, Power BI, Looker] |
+| Data Storage | CSV |
+| Data Processing | Python |
+| Analysis | pandas, numpy, scipy |
+| Visualization | matplotlib |
 | Version Control | [e.g., Git / GitHub] |
 | Documentation | [e.g., Markdown, Notion] |
-| Other | [Any additional tools] |
 
 ---
 
 ## 3. Data Workflow
 
-1. **Source:** [Where did the data come from? Format, size, access method.]
+1. **Source:** Kaggle
 2. **Ingestion:** [How was it brought in?]
-3. **Cleaning:** [What issues did you find and fix?]
-4. **Transformation:** [What new fields, aggregations, or structures did you create?]
-5. **Analysis:** [What methods - statistical, visual, query-based, model-based?]
-6. **Output:** [What form do the results take?]
+3. **Cleaning:** The dataset is clean, there are no missing values or uncompleted rows.
+4. **Transformation:** For each regression I created a data frame containing only dependent and independent variables.
+5. **Analysis:** Logistic regression functions, summary tables, confusion matrix, errorbar (forest diagram), predicted probability.
+6. **Output:** Results are presented in tables and visualizations.
 
 ---
 
@@ -72,15 +71,31 @@
 
 ### Dataset / Table: `[name]`
 
-| Field Name | Data Type | Description | Example Value |
-|------------|-----------|-------------|---------------|
-| `[field_1]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_2]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_3]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+| Index | Column Name | Data Type | Description | Categories |
+|-------|-----|-----------|-------------|---------------|
+| 1 | `status` | int64 | [What this field represents] | [Non-sensitive example] |
+| 2 | `duration` | int64 | [What this field represents] | [Non-sensitive example] |
+| 3 | `credit_history` | int64 | [What this field represents] | [Non-sensitive example] |
+| 4 | `purpose` | int64 | [What this field represents] | [Non-sensitive example] |
+| 5 | `amount` | int64 | [What this field represents] | [Non-sensitive example] |
+| 6 | `savings` | int64 | [What this field represents] | [Non-sensitive example] |
+| 7 | `employment_duration` | int64 | [What this field represents] | [Non-sensitive example] |
+| 8 | `installment_rate` | int64 | [What this field represents] | [Non-sensitive example] |
+| 9 | `personal_status_sex` | int64 | [What this field represents] | [Non-sensitive example] |
+| 10 | `other_deptors` | int64 | [What this field represents] | [Non-sensitive example] |
+| 11 | `present_residence` | int64 | [What this field represents] | [Non-sensitive example] |
+| 12 | `property` | int64 | [What this field represents] | [Non-sensitive example] |
+| 13 | `age` | int64 | [What this field represents] | [Non-sensitive example] |
+| 14 | `other_installment_plans` | int64 | [What this field represents] | [Non-sensitive example] |
+| 15 | `housing` | int64 | [What this field represents] | [Non-sensitive example] |
+| 16 | `number_credits` | int64 | [What this field represents] | [Non-sensitive example] |
+| 17 | `job` | int64 | [What this field represents] | [Non-sensitive example] |
+| 18 | `people_liable` | int64 | [What this field represents] | [Non-sensitive example] |
+| 19 | `telephone` | int64 | [What this field represents] | [Non-sensitive example] |
+| 20 | `foreign_worker` | int64 | [What this field represents] | [Non-sensitive example] |
+| 21 | `credit_risk` | int64 | [What this field represents] | [Non-sensitive example] |
 
-> **Row count (approx.):** [X rows]
-> **Date range:** [Start] – [End]
-> **Key join / relationship:** [e.g., `orders.customer_id` → `customers.id`]
+**Row count:** 1000 rows | **Date range:** [Start] – [End]
 
 ---
 
@@ -104,7 +119,6 @@
 - [e.g., Trend analysis across [time period]]
 - [e.g., Segmentation / group comparison by [dimension]]
 - [e.g., Correlation analysis between [variable A] and [variable B]]
-- [e.g., SQL window functions for [specific aggregation]]
 - [e.g., Custom aggregation or transformation logic in [tool]]
 
 ---
@@ -179,12 +193,11 @@
 
 ## 12. Author
 
-**[Your Name]**
-[Your role or title - current or target]
+**Nikola Richev**
+Currently looking for a job in (Junior) Data Analysis/Science (Consultant).
 
-- 🔗 [LinkedIn URL]
+- 🔗 You can find me on [LinkedIn](www.linkedin.com/in/nikola-richev-1347a6443)
 - 💼 [Portfolio or GitHub profile URL]
-- 📧 [Email - optional]
 
 ---
 
