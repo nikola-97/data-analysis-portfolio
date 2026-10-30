@@ -15,12 +15,13 @@
 3. [Data Workflow](#3-data-workflow)
 4. [Data Model & Schema](#4-data-model--schema)
 5. [Analysis & Metrics](#5-analysis--metrics)
-6. [Key Insights](#6-key-insights)
-7. [Recommendations](#7-recommendations)
-8. [Assumptions & Limitations](#8-assumptions--limitations)
-9. [Future Enhancements](#9-future-enhancements)
-10. [Deliverables](#10-deliverables)
-11. [Author](#11-author)
+6. [Visualization](#6-visualization)
+7. [Key Insights](#7-key-insights)
+8. [Recommendations](#8-recommendations)
+9. [Assumptions & Limitations](#9-assumptions--limitations)
+10. [Future Enhancements](#10-future-enhancements)
+11. [Deliverables](#11-deliverables)
+12. [Author](#12-author)
 ---
 
 ## 1. Objectives
@@ -108,7 +109,13 @@
 
 ---
 
-## 6. Key Insights
+## 6. Visualization
+
+...
+
+---
+
+## 7. Key Insights
 
 **Insight 1: [Short descriptive headline]**
 [What you found + what it suggests. One short paragraph.]
@@ -124,7 +131,7 @@
 
 ---
 
-## 7. Recommendations
+## 8. Recommendations
 
 | Priority | Recommendation | Based On | Suggested Owner |
 |----------|---------------|----------|-----------------|
@@ -134,7 +141,7 @@
 
 ---
 
-## 8. Assumptions & Limitations
+## 9. Assumptions & Limitations
 
 ### Assumptions
 - [What did you treat as true without being able to verify?]
@@ -151,7 +158,7 @@
 
 ---
 
-## 9. Future Enhancements
+## 10. Future Enhancements
 
 - [ ] [Enhancement 1 - specific and traceable to a real gap in this project]
 - [ ] [Enhancement 2]
@@ -160,7 +167,7 @@
 
 ---
 
-## 10. Deliverables
+## 11. Deliverables
 
 | Deliverable | Description | Location |
 |-------------|-------------|----------|
@@ -170,7 +177,7 @@
 
 ---
 
-## 11. Author
+## 12. Author
 
 **[Your Name]**
 [Your role or title - current or target]
