@@ -1,12 +1,12 @@
 ## Project Overview
 
-**Context:** [The business, research, or personal situation that motivated this project.]
+**Context:** This project simulates a banking credit-risk assessment scenario using the German Credit dataset. The goal is to identify factors associated with customer creditworthiness and support lending decisions through data analysis. 
 
-**Problem Statement:** Which demographic and financial characteristics influence credit risk severity?
+**Problem Statement:** To what extent do demographic and financial characteristics influence credit risk?
 
-**Approach:** [In 1–2 sentences - how did you tackle it?]
+**Approach:** Credit risk (1 = low risk, 0 = high risk) was modeled using logistic regression. Two separate models were estimated: one using demographic factors and another using financial factors. Model performance was evaluated through odds ratios, probability predictions, and confusion matrices.
 
-**Outcome:** [What did you produce or discover?]
+**Outcome:** The analysis identified several significant predictors of creditworthiness and highlighted the trade-off between risk reduction and customer acceptance at different classification thresholds. Overall, the findings align with established banking risk-management principles.
 
 ## Table of Contents
 
@@ -26,10 +26,10 @@
 
 ## 1. Objectives
 
-- **Primary Objective:** Analyse to what extent demographic and financial factors predict whether a credit has low or high risk.
-- **Secondary Objective 1:** Measure and compare the prediction quality based on a confusion matrix.
-- **Secondary Objective 2:** Test significance with interaction terms of the significant variables from both regressions.
-- **Secondary Objective 3:** Test Hypothesies.
+- **Primary Objective:** Identify the key demographic and financial factors associated with credit risk.
+- **Secondary Objective 1:** Compare model performance using confusion matrices and alternative classification thresholds.
+- **Secondary Objective 2:** Evaluate potential interaction effects between significant predictors.
+- **Secondary Objective 3:** Test and interpret statistical hypotheses using logistic regression.
 ---
 
 ## 2. Project Scope & Tools
@@ -201,4 +201,4 @@ Currently looking for a job in (Junior) Data Analysis/Science (Consultant).
 
 ---
 
-*Last updated: 30.10.2026*
+*Last updated: 31.10.2026*
