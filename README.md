@@ -11,7 +11,7 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 
 **Code:** ...
 
-**Research Question:** Which socio-economic factors contribute most strongly to the prediction of creditworthiness?
+**Research Question:** To what extent do demographic and financial characteristics influence credit risk?
 
 **Description:**
 
