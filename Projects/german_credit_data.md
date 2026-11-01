@@ -51,8 +51,6 @@
 | Data Processing | Python |
 | Analysis | pandas, numpy, scipy |
 | Visualization | matplotlib |
-| Version Control | [e.g., Git / GitHub] |
-| Documentation | [e.g., Markdown, Notion] |
 
 ---
 
@@ -73,15 +71,15 @@
 
 | Index | Column Name | Data Type | Description | Categories |
 |-------|-----|-----------|-------------|---------------|
-| 1 | `status` | int64 | [What this field represents] | [Non-sensitive example] |
-| 2 | `duration` | int64 | [What this field represents] | [Non-sensitive example] |
-| 3 | `credit_history` | int64 | [What this field represents] | [Non-sensitive example] |
-| 4 | `purpose` | int64 | [What this field represents] | [Non-sensitive example] |
-| 5 | `amount` | int64 | [What this field represents] | [Non-sensitive example] |
-| 6 | `savings` | int64 | [What this field represents] | [Non-sensitive example] |
-| 7 | `employment_duration` | int64 | [What this field represents] | [Non-sensitive example] |
-| 8 | `installment_rate` | int64 | [What this field represents] | [Non-sensitive example] |
-| 9 | `personal_status_sex` | int64 | [What this field represents] | [Non-sensitive example] |
+| 1 | `status` | int64 | ordinal | 1: no checking account, 2: less than 0 DM, 3: 0 to 200 DM, 4: 200 DM or more |
+| 2 | `duration` | int64 | numerical | - |
+| 3 | `credit_history` | int64 | categorical (nominal) | 0: delay in paying off in the past, 1: critical account/other credits elsewhere, 2: no credits taken/all credits paid back duly, 3: existing credits paid back duly till now, 4: all credits at this bank paid back duly |
+| 4 | `purpose` | int64 | categorical (nominal) | 0: others, 1: car (new), 2: car (used), 3: furniture/equipment, 4: radio/television, 5: domestic appliances, 6: repairs, 7: education, 8: vacation, 9: retraining, 10: business |
+| 5 | `amount` | int64 | numerical | - |
+| 6 | `savings` | int64 | ordinal | 1: unknown/no savings account, 2: less than 100 DM, 3: 100 to 500 DM, 4: 500 to 1000 DM, 5: 1000 DM or more |
+| 7 | `employment_duration` | int64 | ordinal | 1: unemployed, 2: less than 1 year, 3: 1 to 4 yrs, 4: 4 to 7 yrs, 5: 7 yrs or more |
+| 8 | `installment_rate` | int64 | ordinal | 1: 35 or more, 2: 25 to 35, 3: 20 to 25, 4: less than 20 |
+| 9 | `personal_status_sex` | int64 | categorical (nominal) | 1: divorced/separated male, 2: single male or non-single female, 3: married/widowed male, 4: single female |
 | 10 | `other_deptors` | int64 | [What this field represents] | [Non-sensitive example] |
 | 11 | `present_residence` | int64 | [What this field represents] | [Non-sensitive example] |
 | 12 | `property` | int64 | [What this field represents] | [Non-sensitive example] |
