@@ -13,7 +13,7 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 
 **Research Question:** To what extent do demographic and financial characteristics influence credit risk?
 
-**Description:**
+**Description:** This project investigates whether demographic and financial characteristics can predict customer credit risk using the German Credit dataset. Logistic regression models were applied to evaluate the relationship between borrower characteristics and the probability of belonging to the low-risk or high-risk credit group. Model performance was assessed through odds ratios, predicted probabilities, confusion matrices, and threshold analysis.
 
 **Skills:** data analysis, logistic regression, hypothesis testing, data visualization
 
