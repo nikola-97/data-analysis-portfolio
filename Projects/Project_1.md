@@ -128,6 +128,9 @@
 ### Confusion Matrices
 
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/b4353411-0196-4672-a621-721200a63cb5" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/5e37dfdb-fba7-4d04-9634-32969c0fa991" />
+
+Left: confusion matrix of reg_dem | Right: confusion matrix of reg_fin
 
 
 ### Creditworthiness 
