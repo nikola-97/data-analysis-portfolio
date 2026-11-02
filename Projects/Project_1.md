@@ -123,7 +123,7 @@
 
 ### Forest Diagrams (Error Bars)
 
-Explore how [demographic](Visuals/Project 1/log_regr_dem_coef.jpg) and [financial](log_regr_fin_coef.jpg) characteristics influence credit risk through the logistic regression coefficient visualizations.
+Explore how [demographic](Visuals/Project 1/log_regr_dem_coef.jpg) and [financial](log_regr_fin_coef.jpg/Project_1/Visuals) characteristics influence credit risk through the logistic regression coefficient visualizations.
 
 
 ### Confusion Matrices
