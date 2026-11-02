@@ -135,6 +135,11 @@ Left: confusion matrix of reg_dem | Right: confusion matrix of reg_fin
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/00a07919-0094-4134-8e1b-a58bb7d3e632" />
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/68fbd9e7-5387-4093-80e7-c42edfbbe3c7" />
 
+...
+
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/2b04a978-ddc3-4e71-8122-2d8a6fcabe46" />
+
+
 
 
 
