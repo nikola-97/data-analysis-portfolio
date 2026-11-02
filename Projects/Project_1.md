@@ -127,6 +127,8 @@
 
 ### Confusion Matrices
 
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/b4353411-0196-4672-a621-721200a63cb5" />
+
 
 ### Creditworthiness 
 
