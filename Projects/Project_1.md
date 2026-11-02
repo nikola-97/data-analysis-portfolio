@@ -138,10 +138,9 @@ Left: confusion matrix of reg_dem | Right: confusion matrix of reg_fin
 ...
 
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/2b04a978-ddc3-4e71-8122-2d8a6fcabe46" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/d655c776-8a36-43e8-90fe-2428b872a9c6" />
 
-
-
-
+...
 
 ### Creditworthiness 
 
