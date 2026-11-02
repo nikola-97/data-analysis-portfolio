@@ -125,8 +125,9 @@
 
 Explore how [demographic](Visuals/Project_1/log_regr_coef.jpg) and [financial](Visuals/Project_1/log_regr_fin_coef.jpg) characteristics influence credit risk through the logistic regression coefficient visualizations. The coefficient (log-odds) plots provide insight into the direction and statistical significance of predictor effects. For substantive interpretation, the analysis focuses on odds ratios, which offer a more intuitive measure of how demographic and financial characteristics influence creditworthiness.
 
-picture
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/a80ab3ce-f051-4abb-971e-5966f769ba59" />
 
+Text
 
 ### Confusion Matrices
 
