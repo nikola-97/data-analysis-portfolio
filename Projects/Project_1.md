@@ -158,19 +158,18 @@ Left: confusion matrix of reg_dem | Right: confusion matrix of reg_fin
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/021c526d-7572-49c6-a288-6ccc75e6df36" />
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/268e11aa-1f24-4dc1-a9ee-4fada1da95eb" />
 
-
-
 Left: reg_dem | Right: reg_fin
 
 As the visualizations suggest, older customers exhibit a higher predicted probability of belonging to the low-risk credit group. However, this relationship should be interpreted with caution. Considering the results from the regression estimation model, age has not shown statistical significance at the 95% confidence level. Furthermore, in the context of credits and rentability, such association between age and creditworthiness is justified through the fact that older customers tend to have more savings, longer employment histories, and more established financial behavior than younger customers. Consequently, the results do not provide sufficient evidence to conclude that age alone has a meaningful independent effect on credit risk within the scope of this dataset.
 
 #### Effect of Savings on Creditworthiness
 
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/30cc3854-7c72-4c1b-a7fc-900011fdb507" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/5c194685-64d8-4b9f-b053-dadd9b64d409" />
 
+Left: reg_dem | Right: reg_fin
 
-
-
-
+Although the predicted probabilities differ between the two model specifications, both models indicate a positive relationship between savings and creditworthiness. Customers with higher savings balances consistently exhibit a greater probability of belonging to the low-risk credit group. The stronger effect observed in the financial model suggests that savings contribute particularly valuable information when considered alongside other indicators of financial behavior. As a result, the positive association between savings and creditworthiness appears robust across different model specifications.
 
 ---
 
