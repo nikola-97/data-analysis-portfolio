@@ -162,7 +162,7 @@ Left: confusion matrix of reg_dem | Right: confusion matrix of reg_fin
 
 Left: reg_dem | Right: reg_fin
 
-Older customers' credits are most likely to be classified as low-risk credits
+As the visualizations suggest, older customers exhibit a higher predicted probability of belonging to the low-risk credit group. However, this relationship should be interpreted with caution. Considering the results from the regression estimation model, age has not shown statistical significance at the 95% confidence level. Furthermore, in the context of credits and rentability, such association between age and creditworthiness is justified through the fact that older customers tend to have more savings, longer employment histories, and more established financial behavior than younger customers. Consequently, the results do not provide sufficient evidence to conclude that age alone has a meaningful independent effect on credit risk within the scope of this dataset.
 
 #### Effect of Savings on Creditworthiness
 
