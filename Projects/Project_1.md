@@ -11,7 +11,7 @@
 ## Table of Contents
 
 1. [Objectives](#1-objectives)
-2. [Project Scope & Tools](#2-project-scope--tools)
+2. [Tools](#2-tools)
 3. [Data Workflow](#3-data-workflow)
 4. [Data Model & Schema](#4-data-model--schema)
 5. [Analysis & Metrics](#5-analysis--metrics)
@@ -32,18 +32,7 @@
 - **Secondary Objective 3:** Test and interpret statistical hypotheses using logistic regression.
 ---
 
-## 2. Project Scope & Tools
-
-### Scope
-
-| Dimension | Details |
-|-----------|---------|
-| **In Scope** | [What is included - data sources, time periods, segments] |
-| **Out of Scope** | Some variables like whether the customer has a telephone number, whether she is foreigner. Because most of the variables are categorical, I wanted to include only those that are much more likely to show significant results, with focus on the topic. Additionally, I had to be careful with the number of independent variables, because of multicollinearity. |
-| **Time Period** | unknown |
-| **Granularity** | 1000 rows, where one row represents one customer |
-
-### Tools & Technologies
+## 2. Tools
 
 | Category | Tool(s) Used |
 |----------|-------------|
@@ -193,12 +182,7 @@ Left: confusion matrix of reg_dem | Right: confusion matrix of reg_fin
 
 ---
 
-## 9. Assumptions & Limitations
-
-### Assumptions
-- [What did you treat as true without being able to verify?]
-- [What simplifications did you make for scope or feasibility?]
-- [What domain rules or definitions did you accept as given?]
+## 9. Limitations
 
 ### Limitations
 - [What gaps exist in the data?]
@@ -221,22 +205,18 @@ Left: confusion matrix of reg_dem | Right: confusion matrix of reg_fin
 
 ## 11. Deliverables
 
-| Deliverable | Description | Location |
-|-------------|-------------|----------|
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
+
 
 ---
 
 ## 12. Author
 
 **Nikola Richev**
-Currently looking for a job in (Junior) Data Analysis/Science (Consultant).
+Currently looking for a job as (Junior) Data Analyst/Scientist (Consultant).
 
 - 🔗 You can find me on [LinkedIn](www.linkedin.com/in/nikola-richev-1347a6443)
-- 💼 [Portfolio or GitHub profile URL]
+- 💼 [CV]()
 
 ---
 
-*Last updated: 31.10.2026*
+*Last updated: 02.11.2026*
