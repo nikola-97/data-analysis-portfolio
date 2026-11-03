@@ -139,6 +139,8 @@ The odds-ratio plot highlights the relative importance of the predictors include
 
 Forest Diagram for reg_fin
 
+Here, the odds-ratio analysis indicates that account status, savings behavior, and credit history are among the strongest predictors of creditworthiness. Customers with positive checking-account balances and favorable repayment histories exhibit substantially higher odds of belonging to the low-risk credit group relative to the corresponding reference categories. By contrast, property ownership and residential status contribute comparatively little additional information. Overall, the findings suggest that indicators of financial behavior and repayment capacity play a more important role in credit-risk assessment than personal or demographic characteristics. 
+
 ### Confusion Matrices
 
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/b4353411-0196-4672-a621-721200a63cb5" />
