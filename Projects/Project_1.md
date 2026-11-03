@@ -18,7 +18,7 @@
 6. [Visualization](#6-visualization)
 7. [Key Insights](#7-key-insights)
 8. [Recommendations](#8-recommendations)
-9. [Assumptions & Limitations](#9-assumptions--limitations)
+9. [Limitations](#9-limitations)
 10. [Future Enhancements](#10-future-enhancements)
 11. [Deliverables](#11-deliverables)
 12. [Author](#12-author)
@@ -153,6 +153,22 @@ Left: confusion matrix of reg_dem | Right: confusion matrix of reg_fin
 ...
 
 ### Creditworthiness 
+
+#### Effect of Age on Creditworthiness
+
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/021c526d-7572-49c6-a288-6ccc75e6df36" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/d6bd1b50-432a-47cf-a6d0-08dec36dd141" />
+
+
+Left: reg_dem | Right: reg_fin
+
+#### Effect of Savings on Creditworthiness
+
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/2278e334-b3ef-41e9-abfb-66006988feea" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/375cc005-2ef4-4c4d-9c2d-36fb59394c39" />
+
+
+
 
 ---
 
