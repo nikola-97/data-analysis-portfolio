@@ -4,7 +4,7 @@
 
 **Problem Statement:** To what extent do demographic and financial characteristics influence credit risk?
 
-**Approach:** Credit risk (1 = low risk, 0 = high risk) was modeled using logistic regression. Two separate models were estimated: one using demographic factors and another using financial factors. Model performance was evaluated through odds ratios, probability predictions, and confusion matrices.
+**Approach:** Credit risk (1 = low risk, 0 = high risk) was modeled using logistic regression. Two separate models were estimated: one using a mixture of demographic factors and some financial factors, and another using only financial factors. Model performance was evaluated through odds ratios and confusion matrices.
 
 **Outcome:** The analysis identified several significant predictors of creditworthiness and highlighted the trade-off between risk reduction and customer acceptance at different classification thresholds. Overall, the findings align with established banking risk-management principles.
 
@@ -28,8 +28,7 @@
 
 - **Primary Objective:** Identify the key demographic and financial factors associated with credit risk.
 - **Secondary Objective 1:** Compare model performance using confusion matrices and alternative classification thresholds.
-- **Secondary Objective 2:** Evaluate potential interaction effects between significant predictors.
-- **Secondary Objective 3:** Test and interpret statistical hypotheses using logistic regression.
+- **Secondary Objective 2:** Explain the decisions that have to be made given the results.
 ---
 
 ## 2. Tools
@@ -161,6 +160,8 @@ Left: confusion matrix of reg_dem | Right: confusion matrix of reg_fin
 
 
 Left: reg_dem | Right: reg_fin
+
+Older customers' credits tend to be classified as low-risk credits
 
 #### Effect of Savings on Creditworthiness
 
