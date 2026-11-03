@@ -155,18 +155,19 @@ Left: confusion matrix of reg_dem | Right: confusion matrix of reg_fin
 
 #### Effect of Age on Creditworthiness
 
-<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/021c526d-7572-49c6-a288-6ccc75e6df36" />
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/d6bd1b50-432a-47cf-a6d0-08dec36dd141" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/021c526d-7572-49c6-a288-6ccc75e6df36" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/268e11aa-1f24-4dc1-a9ee-4fada1da95eb" />
+
 
 
 Left: reg_dem | Right: reg_fin
 
-Older customers' credits tend to be classified as low-risk credits
+Older customers' credits are most likely to be classified as low-risk credits
 
 #### Effect of Savings on Creditworthiness
 
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/2278e334-b3ef-41e9-abfb-66006988feea" />
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/375cc005-2ef4-4c4d-9c2d-36fb59394c39" />
+
+
 
 
 
