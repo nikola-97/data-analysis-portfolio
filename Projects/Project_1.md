@@ -125,9 +125,16 @@
 
 Explore how [demographic](Visuals/Project_1/log_regr_coef.jpg) and [financial](Visuals/Project_1/log_regr_fin_coef.jpg) characteristics influence credit risk through the logistic regression coefficient visualizations. The coefficient (log-odds) plots provide insight into the direction and statistical significance of predictor effects. For substantive interpretation, the analysis focuses on odds ratios, which offer a more intuitive measure of how demographic and financial characteristics influence creditworthiness.
 
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/a80ab3ce-f051-4abb-971e-5966f769ba59" />
+#### How to read those diagrams?
 
-Text
+The blue dots represent the estimated odds ratios of the predictor variables, while the horizontal lines indicate their 95% confidence intervals. The red dashed vertical line marks an odds ratio of 1, which represents no effect on creditworthiness relative to the reference category. Variables with confidence intervals that cross the red line should be interpreted with caution, as their effects are not statistically distinguishable from zero at the 95% confidence level. Odds ratios above 1 indicate higher odds of belonging to the low-risk credit group, whereas odds ratios below 1 indicate lower odds.
+
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/a80ab3ce-f051-4abb-971e-5966f769ba59" />
+Forest Diagram for reg_dem
+The odds-ratio plot highlights the relative importance of the predictors included in the model. Savings-related variables exhibit the most pronounced positive effects, indicating that customers with higher savings balances are substantially more likely to belong to the low-risk credit group. Several loan-purpose categories also display elevated odds ratios, although some of these estimates are characterized by wide confidence intervals and therefore greater uncertainty. In contrast, occupational status and housing categories provide comparatively little information for distinguishing between low-risk and high-risk borrowers. 
+
+
+Forest Diagram for reg_fin
 
 ### Confusion Matrices
 
