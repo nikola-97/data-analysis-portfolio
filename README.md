@@ -9,16 +9,16 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 
 ## Project 1: German Credit Data
 
-**Code:** ...
+**Code:** [project_1.ipynb](Projects/Codes/project_1.ipynb)
 
 **Research Question:** To what extent do demographic and financial characteristics influence credit risk?
 
-**Description:** This project investigates whether demographic and financial characteristics can predict customer credit risk using the German Credit dataset. Logistic regression models were applied to evaluate the relationship between borrower characteristics and the probability of belonging to the low-risk or high-risk credit group. Model performance was assessed through odds ratios, predicted probabilities, confusion matrices, and threshold analysis.
+**Description:** This project investigates whether demographic and financial characteristics can predict customer credit risk using the German Credit dataset. Logistic regression models were applied to evaluate the relationship between borrower characteristics and the probability of belonging to the low-risk or high-risk credit group. Model performance was assessed through odds ratios, confusion matrices, and threshold analysis.
 
-**Skills:** data analysis, logistic regression, hypothesis testing, data visualization
+**Skills:** data analysis, logistic regression, data visualization
 
 **Technology:** Python, Pandas, Numpy, Scipy, Matplotlib 
 
-**Results:** The odds-ratio analysis indicates that financial characteristics provide stronger information about creditworthiness than demographic characteristics. Higher savings categories exhibit substantially elevated odds of belonging to the low-risk credit group relative to the reference category. In contrast, occupational categories remain close to the no-effect threshold (OR = 1), suggesting limited predictive value after controlling for other variables. Several loan-purpose categories display meaningful positive effects, although some estimates are accompanied by wide confidence intervals, indicating greater uncertainty.
+**Results:** The odds-ratio analysis indicates that financial characteristics provide stronger information about creditworthiness than demographic characteristics. Higher savings categories exhibit substantially elevated odds of belonging to the low-risk credit group relative to the reference category. In contrast, occupational categories remain close to the no-effect threshold (Odds Ratio = 1), suggesting limited predictive value after controlling for other variables. Several loan-purpose categories display meaningful positive effects, although some estimates are accompanied by wide confidence intervals, indicating greater uncertainty.
 
 **More about the Project:** [Project 1](Projects/Project_1.md)
