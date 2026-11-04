@@ -27,6 +27,7 @@
 - **Primary Objective:** Identify the key demographic and financial factors associated with credit risk.
 - **Secondary Objective 1:** Compare model performance using confusion matrices and alternative classification thresholds.
 - **Secondary Objective 2:** Explain the decisions that have to be made given the results.
+
 ---
 
 ## 2. Tools
@@ -98,17 +99,29 @@ Beyond coefficient and odds-ratio analysis, the effects of age and savings were 
 | Metric | Aswering Question | Why It Matters |
 |--------|-------------------|----------------|
 | `Pseudo R²` | Does the model explain substantially more than a random guess based only on the average probability? | The financial model (Pseudo R² = 0.2055) exhibits considerably greater explanatory power than the demographic model (Pseudo R² = 0.1300), suggesting that financial characteristics provide more information about creditworthiness than demographic characteristics alone. |
-| `Accuracy` | How many customers were classified correctly? |  |
-| `Sensitivity` | How many low-risk customers were correctly identified? |  |
-| `Specificity` | How many high-risk customers were correctly identified? |  |
-| `False Positive Rate` | How many risky customers were mistakenly classified as safe? |  |
-| `Precision` | If the model predicts "low risk," how often is it correct? |  |
+| `Accuracy` | How many customers were classified correctly? | Accuracy provides a quick overall evaluation. However, accuracy alone could be misleading, because it changes based on treshold classification. |
+| `Sensitivity` | How many low-risk customers were correctly identified? | High sensitivity means that few good customers are rejected. |
+| `Specificity` | How many high-risk customers were correctly identified? | High specificity means that more risky borrowers are detected |
+| `False Positive Rate` | How many risky customers were mistakenly classified as safe? | FPR supports the decision-making process of the bank. |
+| `Precision` | If the model predicts "low risk," how often is it correct? | Precision reflects the reliability of the bank's approvals. A low precision means that many approved customers are actually risky. |
 
 ### Methods Used
 
 - Logistic regression estimation
 - Odds Ratios
 - Confusion Matrix Calculations
+  + Accuracy = (TP + TN)/n
+  + Sensitivity = TP/(TP + FN)
+  + Specificity = TN/(TN + FP)
+  + False Positive Rate (FPR) = FP/(FP + TN)
+  + Precision = TP/(TP + FP)
+
+**Legend:** Confusion Matrix (Actual, Predicted) 
+* TP = True Positive (Actual = low, Predicted = low)
+* TN = True Negative (high, high)
+* FP = False Positive (high, low)
+* FN = False Negative (low, high)
+* n = total number of observations (1000)
 
 ---
 
@@ -157,6 +170,16 @@ Threshold analysis was performed to evaluate how different decision rules affect
 
 From a credit-risk perspective, increasing the classification threshold reflects a more restrictive lending strategy. While a higher threshold improves the detection of high-risk applicants and reduces potential credit losses, it also increases the number of creditworthy customers who may be denied financing. Consequently, threshold selection should reflect the bank's overall risk tolerance and lending objectives.
 
+#### Confusion Matrix Calculations (for the 2. regression model only)
+
+| Metric | Formula | Results (treshold) |
+|--------|---------|--------------------|
+| `Accuracy` | (TP + TN)/n | 76.5% (0.5), 64.3% (0.8), 48.3% (0.9) |
+| `Sensitivity` | TP/(TP + FN) | 90.29% (0.5), 55.43% (0.8), 28.43% (0.9) |
+| `Specificity` | TN/(TN + FP) | 44.33% (0.5), 85% (0.8), 94.67% (0.9) |
+| `False Positive Rate` | FP/(FP + TN) | 55.67% (0.5), 15% (0.8), 5.33% (0.9) |
+| `Precision` | TP/(TP + FP) | 79.1% (0.5), 89.61% (0.8), 92.56% (0.9) |
+
 ### Creditworthiness 
 
 #### Effect of Age on Creditworthiness
@@ -203,16 +226,11 @@ The optimal threshold cannot be determined solely from statistical measures. Rat
 
 ### Limitations
 
-- [What gaps exist in the data?]
-- [What analysis was out of scope but could affect interpretation?]
-- [What would a more rigorous version of this project include?]
-- [Are there known biases in the data source or collection method?]
+The dataset does not contain several variables commonly used in credit-risk assessment, such as income, debt, previous defaults, existing financial obligations, and net worth. Consequently, the models may not fully capture a borrower's repayment capacity and financial situation.
 
 ### Enhancements
 
-- ...
-
-> *The goal here is pre-emptive Q&A. What would a thoughtful skeptic push back on? Document the answer here, before they ask.*
+Future analyses could incorporate additional financial information, evaluate interaction effects between key predictors, and compare logistic regression with alternative classification methods. Such extensions may improve predictive performance and provide a more realistic representation of credit-risk assessment in banking.
 
 ---
 
