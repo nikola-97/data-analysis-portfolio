@@ -243,7 +243,7 @@ Future analyses could incorporate additional financial information, evaluate int
 Currently looking for a job as (Junior) Data Analyst/Scientist (Consultant).
 
 - 🔗 You can find me on [LinkedIn](www.linkedin.com/in/nikola-richev-1347a6443)
-- 💼 [CV](file:///C:/Users/nikol/Downloads/CV.pdf)
+- 💼 [CV]()
 
 ---
 
