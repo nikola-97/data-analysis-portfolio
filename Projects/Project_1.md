@@ -131,6 +131,8 @@ Beyond coefficient and odds-ratio analysis, the effects of age and savings were 
 
 Explore how [demographic](Visuals/Project_1/log_regr_coef.jpg) and [financial](Visuals/Project_1/log_regr_fin_coef.jpg) characteristics influence credit risk through the logistic regression coefficient visualizations. The coefficient (log-odds) plots provide insight into the direction and statistical significance of predictor effects. For substantive interpretation, the analysis focuses on odds ratios, which offer a more intuitive measure of how demographic and financial characteristics influence creditworthiness.
 
+**Tipp:** Click on the pictures to view them in greater detail (and better resolution).
+
 #### How to read those diagrams?
 
 The blue dots represent the estimated odds ratios of the predictor variables, while the horizontal lines indicate their 95% confidence intervals. The red dashed vertical line marks an odds ratio of 1, which represents no effect on creditworthiness relative to the reference category. Variables with confidence intervals that cross the red line should be interpreted with caution, as their effects are not statistically distinguishable from zero at the 95% confidence level. Odds ratios above 1 indicate higher odds of belonging to the low-risk credit group, whereas odds ratios below 1 indicate lower odds.
