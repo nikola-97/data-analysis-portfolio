@@ -4,8 +4,10 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 
 ## Contents
 
-* Python
+* **Python**
     + German Credit Data
+* **SQL**
+    + Cleaning a dataset (coming soon)
 
 ## Project 1: German Credit Data
 
@@ -22,3 +24,19 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 **Results:** The odds-ratio analysis indicates that financial characteristics provide stronger information about creditworthiness than demographic characteristics. Higher savings categories exhibit substantially elevated odds of belonging to the low-risk credit group relative to the reference category. In contrast, occupational categories remain close to the no-effect threshold (Odds Ratio = 1), suggesting limited predictive value after controlling for other variables. Several loan-purpose categories display meaningful positive effects, although some estimates are accompanied by wide confidence intervals, indicating greater uncertainty.
 
 **More about the Project:** [Project 1](Projects/Project_1.md)
+
+---
+
+## Project 2: Cleaning a Dataset with SQL
+
+**Code:**
+
+**Description:**
+
+**Skills:**
+
+**Technology:**
+
+**Results:**
+
+**More about the Project:** [Project 2]()
