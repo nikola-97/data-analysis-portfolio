@@ -19,9 +19,7 @@
 7. [Key Insights](#7-key-insights)
 8. [What would a bank do?](#8-what-would-a-bank-do)
 9. [Limitations](#9-limitations)
-10. [Future Enhancements](#10-future-enhancements)
-11. [Deliverables](#11-deliverables)
-12. [Author](#12-author)
+10. [Author](#10-author)
 ---
 
 ## 1. Objectives
@@ -199,34 +197,24 @@ Although the predicted probabilities differ between the two model specifications
 
 ---
 
-## 9. Limitations
+## 9. Limitations & Enhancements
 
 ### Limitations
+
 - [What gaps exist in the data?]
 - [What analysis was out of scope but could affect interpretation?]
 - [What would a more rigorous version of this project include?]
 - [Are there known biases in the data source or collection method?]
 
+### Enhancements
+
+- ...
+
 > *The goal here is pre-emptive Q&A. What would a thoughtful skeptic push back on? Document the answer here, before they ask.*
 
 ---
 
-## 10. Future Enhancements
-
-- [ ] [Enhancement 1 - specific and traceable to a real gap in this project]
-- [ ] [Enhancement 2]
-- [ ] [Enhancement 3]
-- [ ] [Enhancement 4]
-
----
-
-## 11. Deliverables
-
-
-
----
-
-## 12. Author
+## 10. Author
 
 **Nikola Richev**
 Currently looking for a job as (Junior) Data Analyst/Scientist (Consultant).
@@ -236,4 +224,4 @@ Currently looking for a job as (Junior) Data Analyst/Scientist (Consultant).
 
 ---
 
-*Last updated: 02.11.2026*
+*Last updated: 04.11.2026*
