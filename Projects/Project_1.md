@@ -95,16 +95,20 @@ Beyond coefficient and odds-ratio analysis, the effects of age and savings were 
 
 ### Key Metrics Defined
 
-| Metric | Plain-Language Definition | Why It Matters |
-|--------|--------------------------|----------------|
-| `reg_fin` | Measures financial factors on credit_risk. | The financial and credit-history model appears more useful for credit-risk assessment because it relies on variables that directly reflect customer solvency and repayment behavior. |
-| `reg_dem` | Measures demographic factors on credit_risk | In contrast, demographic characteristics provide comparatively weaker and less consistent signals regarding creditworthiness. |
+| Metric | Aswering Question | Why It Matters |
+|--------|-------------------|----------------|
+| `Pseudo R²` | Does the model explain substantially more than a random guess based only on the average probability? | The financial model (Pseudo R² = 0.2055) exhibits considerably greater explanatory power than the demographic model (Pseudo R² = 0.1300), suggesting that financial characteristics provide more information about creditworthiness than demographic characteristics alone. |
+| `Accuracy` | How many customers were classified correctly? |  |
+| `Sensitivity` | How many low-risk customers were correctly identified? |  |
+| `Specificity` | How many high-risk customers were correctly identified? |  |
+| `False Positive Rate` | How many risky customers were mistakenly classified as safe? |  |
+| `Precision` | If the model predicts "low risk," how often is it correct? |  |
 
 ### Methods Used
 
 - Logistic regression estimation
-- Confusion Matrix
 - Odds Ratios
+- Confusion Matrix Calculations
 
 ---
 
