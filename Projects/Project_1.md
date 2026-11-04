@@ -193,11 +193,13 @@ Although the predicted probabilities differ between the two model specifications
 
 ## 8. What would a bank do?
 
-| Priority | Recommendation | Based On | Suggested Owner |
-|----------|---------------|----------|-----------------|
-| High | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Medium | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Low | [Exploratory or longer-term suggestion] | [Insight it comes from] | [Who should act] |
+| Treshold | Advantages | Disadvantages | Recommendation |
+|----------|------------|---------------|----------------|
+| 0.5 | higher loan volume, more interest income, greater market share, easier access to credit for households and firms | more risky borrowers are approved, higher expected defaults, higher credit-loss provisions | This strategy may be appropriate during economic expansion, when unemployment is low, expectations are positive, and default rates are expected to remain contained. |
+| 0.8 | better identification of risky borrowers, lower expected credit losses, more balanced relationship between risk and profitability | some creditworthy customers are rejected, lower lending volume than under the 0.5 threshold | This threshold may be appropriate in periods of economic uncertainty, when future economic developments remain unclear. |
+| 0.9 | most risky borrowers are detected, credit losses are minimized, capital preservation is prioritized | many creditworthy borrowers are rejected, lower interest income, reduced loan portfolio growth | Such a strategy may be justified during recessions or periods of financial stress, when default probabilities are elevated and banks prioritize stability over growth. |
+
+The optimal threshold cannot be determined solely from statistical measures. Rather, the appropriate threshold depends on the bank's strategic objectives, risk appetite, and macroeconomic environment. During periods of economic expansion, lower thresholds may support credit growth and profitability. Conversely, during economic downturns, higher thresholds may be preferred to reduce exposure to default risk.
 
 ---
 
