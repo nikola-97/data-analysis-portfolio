@@ -39,4 +39,4 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 
 **Results:**
 
-**More about the Project:** [Project 2]()
+**More about the Project:** [Project 2](Projects/Project_2.md)
