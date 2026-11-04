@@ -17,7 +17,7 @@
 5. [Analysis & Metrics](#5-analysis--metrics)
 6. [Visualization](#6-visualization)
 7. [Key Insights](#7-key-insights)
-8. [Recommendations](#8-recommendations)
+8. [What would a bank do?](#8-what--would--a--bank--do?)
 9. [Limitations](#9-limitations)
 10. [Future Enhancements](#10-future-enhancements)
 11. [Deliverables](#11-deliverables)
@@ -189,7 +189,7 @@ Although the predicted probabilities differ between the two model specifications
 
 ---
 
-## 8. Recommendations
+## 8. What would a bank do?
 
 | Priority | Recommendation | Based On | Suggested Owner |
 |----------|---------------|----------|-----------------|
