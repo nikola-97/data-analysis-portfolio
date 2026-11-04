@@ -99,7 +99,7 @@ Beyond coefficient and odds-ratio analysis, the effects of age and savings were 
 | Metric | Aswering Question | Why It Matters |
 |--------|-------------------|----------------|
 | `Pseudo R²` | Does the model explain substantially more than a random guess based only on the average probability? | The financial model (Pseudo R² = 0.2055) exhibits considerably greater explanatory power than the demographic model (Pseudo R² = 0.1300), suggesting that financial characteristics provide more information about creditworthiness than demographic characteristics alone. |
-| `Accuracy` | How many customers were classified correctly? | Accuracy provides a quick overall evaluation. However, accuracy alone could be misleading, because it changes based on treshold classification. |
+| `Accuracy` | How many customers were classified correctly? | Accuracy provides a quick overall evaluation. However, accuracy alone could be misleading, because it depends on the distribution of the two groups. |
 | `Sensitivity` | How many low-risk customers were correctly identified? | High sensitivity means that few good customers are rejected. |
 | `Specificity` | How many high-risk customers were correctly identified? | High specificity means that more risky borrowers are detected |
 | `False Positive Rate` | How many risky customers were mistakenly classified as safe? | FPR supports the decision-making process of the bank. |
