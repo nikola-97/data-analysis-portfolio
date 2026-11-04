@@ -217,6 +217,7 @@ Although the predicted probabilities differ between the two model specifications
 ## 10. Author
 
 **Nikola Richev**
+
 Currently looking for a job as (Junior) Data Analyst/Scientist (Consultant).
 
 - 🔗 You can find me on [LinkedIn](www.linkedin.com/in/nikola-richev-1347a6443)
