@@ -18,7 +18,7 @@
 6. [Visualization](#6-visualization)
 7. [Key Insights](#7-key-insights)
 8. [What would a bank do?](#8-what-would-a-bank-do)
-9. [Limitations](#9-limitations)
+9. [Limitations & Enhancements](#9-limitations--enhancements)
 10. [Author](#10-author)
 ---
 
