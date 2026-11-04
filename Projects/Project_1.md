@@ -132,22 +132,26 @@ Here, the odds-ratio analysis indicates that account status, savings behavior, a
 
 ### Confusion Matrices
 
-Take a moment and look at the confucion matrices by different tresholds:
+#### How to read the confusion matrices?
+
+The confusion matrix evaluates the predictive performance of the logistic regression model. The diagonal cells represent correctly classified observations, whereas the off-diagonal cells represent classification errors. In the present context, the most important error occurs when a high-risk customer is classified as low-risk, because such a decision may expose the bank to financial losses.
 
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/b4353411-0196-4672-a621-721200a63cb5" />
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/5e37dfdb-fba7-4d04-9634-32969c0fa991" />
 
 Left: confusion matrix of reg_dem | Right: confusion matrix of reg_fin
 
+The confusion-matrix analysis reveals a notable difference between the two regression models. While both models accurately identify the majority of low-risk customers, the financial model demonstrates considerably stronger performance in detecting high-risk borrowers. The share of correctly classified high-risk applicants increases from 30.3% in the demographic model to 44.3% in the financial model. Although both models still struggle to identify all risky customers, the results suggest that financial characteristics provide more relevant information for credit-risk assessment than demographic variables alone. This finding is consistent with banking practice, where lending decisions primarily rely on indicators of financial stability and repayment behavior.
+
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/00a07919-0094-4134-8e1b-a58bb7d3e632" />
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/68fbd9e7-5387-4093-80e7-c42edfbbe3c7" />
 
-...
+Threshold analysis was performed to evaluate how different decision rules affect classification performance. Increasing the threshold reduces the likelihood of incorrectly approving high-risk customers, while simultaneously increasing the probability of rejecting low-risk customers. The results therefore illustrate the trade-off between risk control and business opportunity that financial institutions must consider when making lending decisions.
 
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/2b04a978-ddc3-4e71-8122-2d8a6fcabe46" />
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/d655c776-8a36-43e8-90fe-2428b872a9c6" />
 
-...
+From a credit-risk perspective, increasing the classification threshold reflects a more restrictive lending strategy. While a higher threshold improves the detection of high-risk applicants and reduces potential credit losses, it also increases the number of creditworthy customers who may be denied financing. Consequently, threshold selection should reflect the bank's overall risk tolerance and lending objectives.
 
 ### Creditworthiness 
 
