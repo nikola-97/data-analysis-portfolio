@@ -44,7 +44,7 @@
 
 1. **Source:** Kaggle, [German Credit Data](https://www.kaggle.com/datasets/jumpingdino/german-credit-dataset)
 2. **Cleaning:** The dataset is clean, there are no missing values or empty rows.
-3. **Analysis:** Logistic regressions, summary tables, confusion matrices, errorbar (forest diagram), predicted probability.
+3. **Analysis:** Logistic regressions, summary tables, confusion matrices, forest diagram (error-bar), predicted probability.
 4. **Output:** See Section 6.
 
 ---
@@ -177,17 +177,9 @@ Although the predicted probabilities differ between the two model specifications
 
 ## 7. Key Insights
 
-**Insight 1: [Short descriptive headline]**
-[What you found + what it suggests. One short paragraph.]
+**Insight 1: Financial factors are stronger indicators for credit risk assessment.**
 
-**Insight 2: [Short descriptive headline]**
-[What you found + what it suggests.]
-
-**Insight 3: [Short descriptive headline]**
-[What you found + what it suggests.]
-
-**Insight 4 (if applicable): [Short descriptive headline]**
-[What you found + what it suggests.]
+**Insight 2: Shifting classification tresholds supports the decision-making under uncertainty.**
 
 ---
 
