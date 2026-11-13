@@ -6,9 +6,10 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 
 * **Python**
     + [German Credit Data](#project-1-german-credit-data)
-    + [Cleaning a Dataset: Iranian Transactions](#project-2-iranian-transactions)
+    + [Iranian Transactions (Data Cleaning)](#project-2-iranian-transactions-data-cleaning) (coming soon)
+    + [Iranian Transactions (Data Analysis)](#project-3-iranian-transactions-data-analysis) (coming soon)
 * **SQL**
-    + [Cleaning a Dataset: Iranian Transactions](#project-2-iranian-transactions)
+    + [Cleaning a Dataset: Iranian Transactions](#project-2-iranian-transactions-data-cleaning) (coming soon)
 
 ## Project 1: German Credit Data
 
@@ -34,7 +35,7 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 
 ---
 
-## Project 2: Iranian Transactions
+## Project 2: Iranian Transactions (Data Cleaning)
 
 **Code:**
 
@@ -49,3 +50,21 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 **Project Statistics:**
 
 **More about the Project:** [Project 2](Projects/Project_2.md)
+
+---
+
+## Project 3: Iranian Transactions (Data Analysis)
+
+**Code:**
+
+**Description:**
+
+**Skills:** data analysis, data visualization
+
+**Technology:** Python, Pandas, Numpy, Matplotlib, Scipy
+
+**Results:**
+
+**Project Statistics:**
+
+**More about the Project:**
