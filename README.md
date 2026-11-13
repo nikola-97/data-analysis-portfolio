@@ -6,8 +6,9 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 
 * **Python**
     + [German Credit Data](#project-1-german-credit-data)
+    + [Cleaning a Dataset: Iranian Transactions](#project-2-iranian-transactions)
 * **SQL**
-    + Cleaning Datasets (coming soon)
+    + [Cleaning a Dataset: Iranian Transactions](#project-2-iranian-transactions)
 
 ## Project 1: German Credit Data
 
