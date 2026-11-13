@@ -33,15 +33,15 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 
 ---
 
-## Project 2: Cleaning Datasets with SQL
+## Project 2: Iranian Transactions
 
 **Code:**
 
 **Description:**
 
-**Skills:**
+**Skills:** data cleaning
 
-**Technology:**
+**Technology:** SQL, Python (Pandas, Numpy)
 
 **Results:**
 
