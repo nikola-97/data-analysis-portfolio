@@ -5,7 +5,7 @@ Welcome to my project portfolio! Here you will find brief summaries of my projec
 ## Contents
 
 * **Python**
-    + German Credit Data
+    + [German Credit Data](#project-1-german-credit-data)
 * **SQL**
     + Cleaning Datasets (coming soon)
 
