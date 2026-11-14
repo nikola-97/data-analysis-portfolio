@@ -9,7 +9,7 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
     + [Iranian Transactions (Data Cleaning)](#project-2-iranian-transactions-data-cleaning) (coming soon)
     + [Iranian Transactions (Data Analysis)](#project-3-iranian-transactions-data-analysis) (coming soon)
 * **SQL**
-    + [Cleaning a Dataset: Iranian Transactions](#project-2-iranian-transactions-data-cleaning) (coming soon)
+    + [Iranian Transactions](#project-2-iranian-transactions-data-cleaning) (coming soon)
 
 --- 
 
