@@ -11,6 +11,8 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
 * **SQL**
     + [Cleaning a Dataset: Iranian Transactions](#project-2-iranian-transactions-data-cleaning) (coming soon)
 
+--- 
+
 ## Project 1: German Credit Data
 
 **Code:** [project_1.ipynb](Projects/Codes/project_1.ipynb)
@@ -48,6 +50,8 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
 **Results:**
 
 **Project Statistics:**
+* Duration: x hours (date range)
+* Dataset Complexity: low
 
 **More about the Project:** [Project 2](Projects/Project_2.md)
 
