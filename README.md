@@ -1,6 +1,6 @@
 # Portfolio Projects
 
-Welcome to my project portfolio! Here you will find brief summaries of my projects. Each project includes a link to its main page, where you can explore the methodology, analysis, and results in greater detail.
+Welcome to my portfolio projects! Here you will find brief summaries of my projects. Each project includes a link to its main page, where you can explore the methodology, analysis, and results in greater detail.
 
 ## Contents
 
