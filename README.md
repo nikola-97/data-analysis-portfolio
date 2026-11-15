@@ -51,7 +51,7 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
 
 **Project Statistics:**
 * Duration: x hours (date range)
-* Dataset Complexity: low
+* Dataset Complexity: beginner-advanced
 
 **More about the Project:** [Project 2](Projects/Project_2.md)
 
