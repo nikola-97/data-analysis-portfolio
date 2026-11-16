@@ -45,9 +45,9 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
 
 **Skills:** data cleaning
 
-**Technology:** SQL, Python (Pandas, Numpy)
+**Technology:** MySQL, Python (Pandas, Numpy)
 
-**Results:**
+**Results:** Successfully identified and corrected all major data quality issues using SQL and Python. The final dataset was standardized, free of duplicate records, contained unique identifiers, and was prepared for reliable downstream analysis.
 
 **Project Statistics:**
 * Duration:
