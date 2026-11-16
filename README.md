@@ -47,7 +47,7 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
 
 **Technology:** MySQL, Python (Pandas, Numpy)
 
-**Results:** Successfully identified and corrected all major data quality issues using SQL and Python. The final dataset was standardized, free of duplicate records, contained unique identifiers, and was prepared for reliable downstream analysis.
+**Results:** Successfully identified and corrected all major data quality issues using SQL and Python. The final dataset was standardized, free of duplicate records, contained unique identifiers, and was prepared for reliable analysis.
 
 **Project Statistics:**
 * Duration:
