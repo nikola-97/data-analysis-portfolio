@@ -33,7 +33,7 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
   + interpretation and structural organization on GitHub: ~ 12 hours (30.10., 02.11.26 - 05.11.26)
 * Dataset Complexity: low
 
-**More about the Project:** [Project 1](Projects/Project_1.md)
+**More about the Project:** [Project 1]
 
 ---
 
