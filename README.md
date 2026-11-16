@@ -41,7 +41,7 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
 
 **Code:**
 
-**Description:**
+**Description:** This project examines data cleaning procedures using SQL and Python. The dataset was deliberately designed for data cleaning practice and contains common data quality issues, including inconsistent formatting, missing values (NULLs), duplicate records, extreme transaction amount outliers, negative transaction values, and non-unique identifiers.
 
 **Skills:** data cleaning
 
@@ -50,8 +50,10 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
 **Results:**
 
 **Project Statistics:**
-* Duration: x hours (date range)
-* Dataset Complexity: beginner-advanced
+* Duration:
+  + SQL: 4 hours (15.11.2026)
+  + Python: 
+* Dataset Complexity: beginner/advanced
 
 **More about the Project:** [Project 2](Projects/Project_2.md)
 
