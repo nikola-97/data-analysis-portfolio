@@ -40,7 +40,7 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
 ## Project 2: Iranian Transactions (Data Cleaning)
 
 **Code:**
-* SQL: [ir_transactions_dc](Projects/Codes/ir_transactions_dc.sql)
+* SQL: [ir_transactions_dc.sql](Projects/Codes/ir_transactions_dc.sql)
 * Python: 
 
 **Description:** This project examines data cleaning procedures using SQL and Python. The dataset was deliberately designed for data cleaning practice and contains common data quality issues, including inconsistent formatting, missing values (NULLs), duplicate records, extreme transaction amount outliers, negative transaction values, and non-unique identifiers.
