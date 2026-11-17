@@ -8,7 +8,7 @@
 
 1. [General Information](#1-general-information)
 2. [MySQL: Tables & Comments](#2-mysql-tables--comments)
-3. [Python: Tables & Comments](#3-python-tables--comments)
+3. [Python: Data Frames & Comments](#3-python-data-frames--comments)
 4. [Key Insights](#4-key-insights)
 5. [Mistakes & Future Enhancements](#5-mistakes--future-enhancements)
 6. [Author](#6-author)
@@ -72,7 +72,7 @@
 
 ---
 
-## 3. Python: Tables & Comments
+## 3. Python: Data Frames & Comments
 
 ...
 
