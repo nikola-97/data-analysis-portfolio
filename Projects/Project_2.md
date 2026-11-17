@@ -45,7 +45,7 @@
 | 2 | `time` | text | ... | Date and time of the transaction. |
 | 3 | `card_type` | text | ... | Type of the card used for the transaction. |
 | 4 | `city` | text | ... | Location or where was the transaction made. |
-| 5 | `amount` | double | ... | Amount of money (Iranian Rial) in the transaction. |
+| 5 | `amount` | double | ... | Amount of money (Iranian Rial). |
 | 6 | `id` | int | ... | Non-unique transaction ID. |
 
 #### Columns Overview (after)
@@ -55,7 +55,7 @@
 | 1 | `status` | text | ... | Indicates whether the transaction was a fail or a success. |
 | 2 | `card_type` | text | ... | Type of the card used for the transaction. | 
 | 3 | `city` | text | ... | Location or where was the transaction made. | 
-| 4 | `amount` | decimal (15,2) | ... | Amount of money (Iranian Rial) in the transaction. | 
+| 4 | `amount` | decimal (15,2) | ... | Amount of money (Iranian Rial). | 
 | 5 | `trans_date` | date | ... | Date, when the transaction was made. | 
 | 6 | `trans_time` | time | ... | Time, when the transaction was made. | 
 | 7 | `trans_id` | int | ... | Unique ID for each transaction, allowing future joins with other datasets. | 
@@ -68,12 +68,17 @@
 
 ## 2. MySQL: Tables & Comments 
 
-...
+The table below visualizes the iranian_transactions dataset. 
+
 <img width="427" height="292" alt="image" src="https://github.com/user-attachments/assets/15175cc7-0cfe-42c9-a5b7-d13fa9b3465b" />
 
-...
+The **status** column contained multiple variations of the values *success* and *fail*, resulting in inconsistent categorization. Similar standardization issues were identified in the **card_type** and **city** columns. These inconsistencies were resolved through data cleaning procedures, resulting in a standardized and reliable dataset, as shown in the table below.
+
 <img width="507" height="313" alt="image" src="https://github.com/user-attachments/assets/d260e19d-6110-4c61-9610-215483876cad" />
 
+**Final Result:** iran_trans_copy1
+
+Extreme transaction amounts may indicate transactions involving foreign currencies that have a higher value than the Iranian Rial. Moreover, negative and positive values ​​indicate cash flows.
 
 ---
 
