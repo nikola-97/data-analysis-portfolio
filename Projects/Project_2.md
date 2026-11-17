@@ -1,6 +1,6 @@
 ## Project Overview
 
-**Context:** Data cleaning is a critical step in the data analysis process, as data quality issues can affect the reliability of subsequent analyses. To demonstrate common cleaning techniques, a purpose-built dataset containing several intentional errors was used. This dataset covers iranian transactions from september 2025. 
+**Context:** Data cleaning is a critical step in the data analysis process, as data quality issues can affect the reliability of subsequent analyses. To demonstrate common cleaning techniques, a purpose-built dataset containing several intentional errors was used. The dataset consists of transaction data collected in Iran during September 2025.
 
 **Outcome:** Resolved key data quality issues including duplicates, missing values, inconsistent formatting, and non-unique identifiers. The final dataset was standardized, validated, and prepared for reliable exploratory and statistical analysis.
 
