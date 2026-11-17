@@ -1,8 +1,8 @@
 ## Project Overview
 
-**Context:** The dataset covers iranian transactions in september 2025. 
+**Context:** Data cleaning is a critical step in the data analysis process, as data quality issues can affect the reliability of subsequent analyses. To demonstrate common cleaning techniques, a purpose-built dataset containing several intentional errors was used. This dataset covers iranian transactions from september 2025. 
 
-**Outcome:** A clean and analysis-ready dataset.
+**Outcome:** Resolved key data quality issues including duplicates, missing values, inconsistent formatting, and non-unique identifiers. The final dataset was standardized, validated, and prepared for reliable exploratory and statistical analysis.
 
 ## Table of Contents
 
@@ -25,8 +25,8 @@
 
 ### Data Workflow
 
-1. **Source:** Kaggle, [Iranian Transactions]()
-2. **Cleaning:** As already mentioned, this dataset was made purposely "unclean" in order to simulate a real-world data cleaning process. The cleaning process contains the following steps:
+1. **Source:** Kaggle, [Iranian Transactions](https://www.kaggle.com/datasets/hosseinbadrnezhad/dirty-iranian-transactions-dataset)
+2. **Cleaning:** As already mentioned, this dataset was made purposely "unclean" in order to simulate a real-world data cleaning process, which contains the following steps:
    1. Standardization issues (MasterCard vs Master Card, succeed vs success, teh@n vs Tehran)
    2. NULL values
    3. Duplicate transactions
@@ -41,12 +41,12 @@
 
 | Index | Column Name | Data Type in MySQL | Data Type in Python | Description |  
 |-------|-------------|--------------------|---------------------|-------------|
-| 1 | `status` | text | ordinal categorical | Indicates whether the transaction was a fail or a success. |
-| 2 | `time` | text | numerical | Date and time of the transaction. |
-| 3 | `card_type` | text | nominal categorical | Type of the card used for the transaction. |
-| 4 | `city` | text | nominal categorical | Location or where was the transaction made. |
-| 5 | `amount` | double | numerical | Amount of money (Iranian Rial) in the transaction. |
-| 6 | `id` | int | ordinal categorical | Non-unique transaction ID. |
+| 1 | `status` | text | ... | Indicates whether the transaction was a fail or a success. |
+| 2 | `time` | text | ... | Date and time of the transaction. |
+| 3 | `card_type` | text | ... | Type of the card used for the transaction. |
+| 4 | `city` | text | ... | Location or where was the transaction made. |
+| 5 | `amount` | double | ... | Amount of money (Iranian Rial) in the transaction. |
+| 6 | `id` | int | ... | Non-unique transaction ID. |
 
 #### Columns Overview (after)
 
