@@ -33,6 +33,8 @@
    5. (Extreme outliers)
    6. (Negative transaction values)
 
+**Notice:** The points in parentheses are discussed in Project 3.
+
 
 ### Data Model & Schema
 
