@@ -6,10 +6,10 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
 
 * **Python**
     + [German Credit Data](#project-1-german-credit-data)
-    + [Iranian Transactions (Data Cleaning)](#project-2-iranian-transactions-data-cleaning) (coming soon)
+    + [Iranian Transactions (Data Cleaning)](#project-2-iranian-transactions-data-cleaning) 
     + [Iranian Transactions (Data Analysis)](#project-3-iranian-transactions-data-analysis) (coming soon)
 * **SQL**
-    + [Iranian Transactions](#project-2-iranian-transactions-data-cleaning) (coming soon)
+    + [Iranian Transactions](#project-2-iranian-transactions-data-cleaning) 
 
 --- 
 
@@ -41,21 +41,21 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
 
 **Code:**
 * SQL: [ir_transactions_dc.sql](Projects/Codes/ir_transactions_dc.sql)
-* Python: 
+* Python: [iran_trans.ipynb](Projects/Codes/iran_trans.ipynb)
 
 **Description:** This project examines data cleaning procedures using SQL and Python. The dataset was deliberately designed for data cleaning practice and contains common data quality issues, including inconsistent formatting, missing values (NULLs), duplicate records, extreme transaction amount outliers, negative transaction values, and non-unique identifiers.
 
 **Skills:** data cleaning
 
-**Technology:** MySQL, Python (Pandas, Numpy)
+**Technology:** MySQL, Python (Pandas)
 
 **Results:** Successfully identified and corrected all major data quality issues using SQL and Python. The final dataset was standardized, free of duplicate records, contained unique identifiers, and was prepared for reliable analysis.
 
 **Project Statistics:**
 * Duration:
   + SQL: 4 hours (15.11.2026)
-  + Python: 
-* Dataset Complexity: beginner/advanced
+  + Python: 2 hours (19.11.2026)
+* Dataset Complexity: beginner-advanced
 
 **More about the Project:** [Project 2]
 
