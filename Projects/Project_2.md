@@ -55,14 +55,14 @@
 | 1 | `status` | text | str | Indicates whether the transaction was a fail or a success. |
 | 2 | `card_type` | text | str | Type of the card used for the transaction. | 
 | 3 | `city` | text | str | Location or where was the transaction made. | 
-| 4 | `amount` | decimal (15,2) | ... | Amount of money (Iranian Rial). | 
-| 5 | `trans_date` | date | ... | Date, when the transaction was made. | 
-| 6 | `trans_time` | time | ... | Time, when the transaction was made. | 
-| 7 | `trans_id` | int | int64 | Unique ID for each transaction, allowing future joins with other datasets. | 
+| 4 | `amount` | decimal (15,2) | float64 | Amount of money (Iranian Rial). | 
+| 5 | `trans_date` | date | datetime64[us] | Date, when the transaction was made. | 
+| 6 | `trans_time` | time | object | Time, when the transaction was made. | 
+| 7 | `trans_id` | int | index | Unique ID for each transaction, allowing future joins with other datasets. | 
 
 **Row count:** 10.000 rows (raw data); 9.974 rows (cleaned data), 26 duplicated rows in total
 
-**Comment:**
+**Notice:** Although trans_time was reformatted to resemble a SQL time field, Python classifies the resulting values as objects because it does not support an equivalent standalone time data type in this context.
 
 ---
 
