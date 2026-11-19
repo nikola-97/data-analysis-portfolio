@@ -27,7 +27,7 @@
 1. **Source:** Kaggle, [Iranian Transactions](https://www.kaggle.com/datasets/hosseinbadrnezhad/dirty-iranian-transactions-dataset)
 2. **Cleaning:** As already mentioned, this dataset was made purposely "unclean" in order to simulate a real-world data cleaning process, which contains the following steps:
    1. Standardization issues (MasterCard vs Master Card, succeed vs success, teh@n vs Tehran)
-   2. NULL values
+   2. (NULL values)
    3. Duplicate transactions
    4. Non-unique ID field
    5. (Extreme outliers)
@@ -99,8 +99,13 @@ And the DataFrame below is the result:
 ### Mistakes
 | SQL | Python |
 |-----|--------|
-|  | Resetting the index before ordering by date and time. |
-|  |
+| The DISTINCT command did not show all unique values of **card_type** and there was no further investigation. Therefore a card type named as MasterCard still exists in the table. | Did not check if there is a time format in Python. Consequently, **trans_time** is being classified as an object. |
+| Added a trans_id column without ordering by date and time first. | Resetting the index before ordering by date and time. Thereafter, the index needed to be reset again. |
+
+### Enhancements
+| SQL | Python |
+|-----|--------|
+| Always make sure that all values are being standardized, and check why DISTINCT does not show every unique value. | Reset the index after every other modification that changes the consistent order of the index. |
 
 ---
 
