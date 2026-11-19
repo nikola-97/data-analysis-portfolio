@@ -83,13 +83,24 @@ The **status** column contained multiple variations of the values *success* and 
 
 ## 3. Python: Data Frames & Comments
 
-...
+That is how the DataFrame of Iranian_Transactions looks like in Python:
+
+<img width="480" height="165" alt="image" src="https://github.com/user-attachments/assets/0527e99c-68c2-4a95-b63d-631e9afda196" />
+
+And the DataFrame below is the result:
+
+<img width="561" height="394" alt="image" src="https://github.com/user-attachments/assets/70da9f1a-bd96-4a68-b373-483e40bff375" />
+
 
 ---
 
 ## 4. Mistakes & Future Enhancements
 
-...
+### Mistakes
+| SQL | Python |
+|-----|--------|
+|  | Resetting the index before ordering by date and time. |
+|  |
 
 ---
 
