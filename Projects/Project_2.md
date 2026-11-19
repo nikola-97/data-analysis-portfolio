@@ -41,24 +41,24 @@
 
 | Index | Column Name | Data Type in MySQL | Data Type in Python | Description |  
 |-------|-------------|--------------------|---------------------|-------------|
-| 1 | `status` | text | ... | Indicates whether the transaction was a fail or a success. |
-| 2 | `time` | text | ... | Date and time of the transaction. |
-| 3 | `card_type` | text | ... | Type of the card used for the transaction. |
-| 4 | `city` | text | ... | Location or where was the transaction made. |
-| 5 | `amount` | double | ... | Amount of money (Iranian Rial). |
-| 6 | `id` | int | ... | Non-unique transaction ID. |
+| 1 | `status` | text | str | Indicates whether the transaction was a fail or a success. |
+| 2 | `time` | text | str | Date and time of the transaction. |
+| 3 | `card_type` | text | str | Type of the card used for the transaction. |
+| 4 | `city` | text | str | Location or where was the transaction made. |
+| 5 | `amount` | double | float64 | Amount of money (Iranian Rial). |
+| 6 | `id` | int | int64 | Non-unique transaction ID. |
 
 #### Columns Overview (after)
 
 | Index | Column Name | Data Type in MySQL | Data Type in Python | Description | 
 |-------|-------------|--------------------|---------------------|-------------|
-| 1 | `status` | text | ... | Indicates whether the transaction was a fail or a success. |
-| 2 | `card_type` | text | ... | Type of the card used for the transaction. | 
-| 3 | `city` | text | ... | Location or where was the transaction made. | 
+| 1 | `status` | text | str | Indicates whether the transaction was a fail or a success. |
+| 2 | `card_type` | text | str | Type of the card used for the transaction. | 
+| 3 | `city` | text | str | Location or where was the transaction made. | 
 | 4 | `amount` | decimal (15,2) | ... | Amount of money (Iranian Rial). | 
 | 5 | `trans_date` | date | ... | Date, when the transaction was made. | 
 | 6 | `trans_time` | time | ... | Time, when the transaction was made. | 
-| 7 | `trans_id` | int | ... | Unique ID for each transaction, allowing future joins with other datasets. | 
+| 7 | `trans_id` | int | int64 | Unique ID for each transaction, allowing future joins with other datasets. | 
 
 **Row count:** 10.000 rows (raw data); 9.974 rows (cleaned data), 26 duplicated rows in total
 
