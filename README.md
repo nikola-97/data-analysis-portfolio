@@ -57,7 +57,7 @@ Welcome to my portfolio projects! Here you will find brief summaries of my proje
   + Python: 2 hours (19.11.2026)
 * Dataset Complexity: beginner-advanced
 
-**More about the Project:** [Project 2]
+**More about the Project:** [Project 2](Projects/Project_2.md)
 
 ---
 
