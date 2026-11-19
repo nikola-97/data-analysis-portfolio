@@ -78,7 +78,7 @@ The **status** column contained multiple variations of the values *success* and 
 
 **Final Result:** iran_trans_copy1
 
-Extreme transaction amounts may indicate transactions involving foreign currencies that have a higher value than the Iranian Rial. Moreover, negative and positive values ​​indicate cash flows.
+**Notice:** Extreme transaction amounts may indicate transactions involving foreign currencies that have a higher value than the Iranian Rial. Moreover, negative and positive values ​​indicate cash flows.
 
 ---
 
