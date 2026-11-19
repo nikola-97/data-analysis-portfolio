@@ -9,9 +9,8 @@
 1. [General Information](#1-general-information)
 2. [MySQL: Tables & Comments](#2-mysql-tables--comments)
 3. [Python: Data Frames & Comments](#3-python-data-frames--comments)
-4. [Key Insights](#4-key-insights)
-5. [Mistakes & Future Enhancements](#5-mistakes--future-enhancements)
-6. [Author](#6-author)
+4. [Mistakes & Future Enhancements](#4-mistakes--future-enhancements)
+5. [Author](#5-author)
 ---
 
 ## 1. General Information
@@ -88,21 +87,13 @@ The **status** column contained multiple variations of the values *success* and 
 
 ---
 
-## 4. Key Insights
-
-**Insight 1:**
-
-**Insight 2:**
-
----
-
-## 5. Mistakes & Future Enhancements
+## 4. Mistakes & Future Enhancements
 
 ...
 
 ---
 
-## 6. Author
+## 5. Author
 
 **Nikola Richev**
 
@@ -112,4 +103,4 @@ Currently looking for a job as (Junior) Data Analyst/Scientist (Consultant).
 
 ---
 
-*Last updated: 16.11.2026*
+*Last updated: 19.11.2026*
