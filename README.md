@@ -2,6 +2,8 @@
 
 Welcome to my portfolio projects! Here you will find brief summaries of my projects. Each project includes a link to its main page, where you can explore the methodology, analysis, and results in greater detail.
 
+I will start easy and I will try to make each subsequent project more complex than the previous one.
+
 ## Contents
 
 * **Python**
