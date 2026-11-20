@@ -11,7 +11,8 @@ I will start easy and I will try to make each subsequent project more complex th
     + [Iranian Transactions (Data Cleaning)](#project-2-iranian-transactions-data-cleaning) 
     + [Iranian Transactions (Data Analysis)](#project-3-iranian-transactions-data-analysis) (coming soon)
 * **SQL**
-    + [Iranian Transactions](#project-2-iranian-transactions-data-cleaning) 
+    + [Iranian Transactions (Data Cleaning)](#project-2-iranian-transactions-data-cleaning)
+    + [Iranian Transactions (Data Analysis)](#project-3-iranian-transactions-data-analysis)
 
 --- 
 
